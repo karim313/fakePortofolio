@@ -4,16 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/all.min.css">
-    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
-    <link rel="stylesheet" href="CSS/style.min.css">
-    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <title>DevFolio Bootstrap Portfolio Template-index</title>
     <link rel="shortcut icon" href="images/favicon-16x16.png" class="" type="image/x-icon">
 </head>
 
 <body>
+    <div id="preloader">
+        <div class="loader-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p class="loader-text">DevFolio</p>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top" class="text-light rounded-circle bg-primary px-2 border-0 z-3 "><i class="fas fa-arrow-up"></i></button>
     <nav class="navbar navbar-expand-lg scrollspy fixed-top" id="Mynavbar">
         <div class="container ">
@@ -80,7 +90,7 @@
  
         <section class="about p-4 " id="about">
             <div class="container">
-                <div class="card mb-3 ">
+                <div class="card mb-3 reveal-up">
                     <div class="row g-0">
                         <div class="col-md-6 p-3">
                             <figure class="row">
@@ -170,20 +180,19 @@
 
                 </div>
             </div>
-            </div>
         </section>
  
  
  
         <section class="services" id="services">
             <div class="container text-center">
-                <article class="section-title">
+                <article class="section-title reveal-up">
                     <h5 class="text-capitalize fs-1">Services</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </article>
                 <div class="container">
                     <div class="cards row ">
-                        <div class="col-md-4">
+                        <div class="col-md-4 reveal-up delay-1">
                             <div class="card my-3 text-center">
                                 <div class="service-icon p-1 d-flex mx-auto justify-content-center align-items-center ">
                                     <i class="fa-regular fa-envelope"></i>
@@ -202,7 +211,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 reveal-up delay-2">
                             <div class="card my-3 text-center">
                                 <div class="service-icon p-1 d-flex mx-auto justify-content-center align-items-center ">
                                     <i class="fa-regular fa-rectangle-list"></i>
@@ -221,7 +230,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 reveal-up delay-3">
                             <div class="card my-3 text-center">
                                 <div class="service-icon p-1 d-flex mx-auto justify-content-center align-items-center ">
                                     <i class="fa-regular fa-image"></i>
@@ -240,7 +249,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 reveal-up delay-4">
                             <div class="card my-3 text-center">
                                 <div class="service-icon p-1 d-flex mx-auto justify-content-center align-items-center ">
                                     <i class="fa-regular fa-window-restore"></i>
@@ -260,7 +269,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 reveal-up delay-5">
                             <div class="card my-3 text-center">
                                 <div class="service-icon p-1 d-flex mx-auto justify-content-center align-items-center ">
                                     <i class="fa-regular fa-sun"></i>
@@ -280,7 +289,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 reveal-up delay-6">
                             <div class="card my-3 text-center">
                                 <div class="service-icon p-1 d-flex mx-auto justify-content-center align-items-center ">
                                     <i class="fa-regular fa-calendar"></i>
@@ -351,15 +360,14 @@
         </section>
         
         
-        
         <section class="portfolio" id="work">
             <div class="container text-center p-4">
-                <article class="section-title">
+                <article class="section-title reveal-up">
                     <h5 class="fs-1">Portfolio</h5>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptas.</p>
                 </article>
                 <div class="cards row g-4 justify-content-between">
-                    <div class="col-md-4">
+                    <div class="col-md-4 reveal-up delay-1">
                         <div class="card">
                             <picture>
                                 <img src="images/work-1.jpg" class="card-img-top w-100" alt="...">
@@ -378,7 +386,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 reveal-up delay-2">
                         <div class="card">
                             <picture>
                                 <img src="images/work-2.jpg" class="card-img-top w-100" alt="...">
@@ -397,7 +405,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 reveal-up delay-3">
                         <div class="card">
                             <picture>
                                 <img src="images/work-3.jpg" class="card-img-top w-100" alt="...">
@@ -415,7 +423,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 reveal-up delay-4">
                         <div class="card">
                             <picture>
                                 <img src="images/work-4.jpg" class="card-img-top w-100" alt="...">
@@ -433,7 +441,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 reveal-up delay-5">
                         <div class="card">
                             <picture>
                                 <img src="images/work-5.jpg" class="card-img-top w-100" alt="...">
@@ -451,7 +459,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 reveal-up delay-6">
                         <div class="card">
                             <picture>
                                 <img src="images/work-6.jpg" class="card-img-top w-100" alt="...">
@@ -534,12 +542,12 @@
        
         <div class="blog my-5 " id="blog">
             <div class="container">
-                <article class="section-title mb-4 text-center">
+                <article class="section-title mb-4 text-center reveal-up">
                     <h5 class="fs-1">BLOG</h5>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </article>
                 <div class="row m-auto g-3  ">
-                    <div class="col-sm-4 ">
+                    <div class="col-sm-4 reveal-up delay-1">
                         <div class="card">
                             <picture class="position-relative main-img">
                                 <img src="images/post-1.jpg" class="card-img-top" alt="...">
@@ -556,7 +564,7 @@
                                     dapibus.
                                     Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
                             </div>
-                           <div class="card-footer px-2 d-flex justify-content-between flex-wrap px-0 text-muted">
+                            <div class="card-footer px-2 d-flex justify-content-between flex-wrap px-0 text-muted">
                                 <span class="w-75">
                                     <img src="images/testimonial-2.jpg" class="rounded-circle me-1" alt=""><span>Morgan
                                         Freeman</span>
@@ -569,7 +577,7 @@
                         </div>
 
                     </div>
-                    <div class="col-sm-4 ">
+                    <div class="col-sm-4 reveal-up delay-2">
                         <div class="card">
                             <picture class="position-relative main-img">
                                 <img src="images/post-2.jpg" class="card-img-top" alt="...">
@@ -599,7 +607,7 @@
                         </div>
 
                     </div>
-                    <div class="col-sm-4 ">
+                    <div class="col-sm-4 reveal-up delay-3">
                         <div class="card">
                             <picture class="position-relative main-img">
                                 <img src="images/post-3.jpg" class="card-img-top" alt="...">
@@ -639,7 +647,7 @@
        
         <section class="contact p-5" id="contact">
             <div class="container w-md-75 py-4">
-                <div class="card ">
+                <div class="card reveal-up">
                     <div class="row g-2 py-md-0 py-2 ">
 
                         <form action="" class="col-sm-6 py-3 ps-4 ">
